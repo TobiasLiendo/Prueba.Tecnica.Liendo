@@ -1,0 +1,36 @@
+.table-container {
+  padding: 16px;
+  background-color: #f1ecec;
+  border-radius: 8px;
+}
+
+.filter-input {
+  background-color: #d3e3f3;
+  margin-bottom: 16px;
+  padding: 9.6px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  transition: border-color 0.3s ease;
+}
+
+::ng-deep .p-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+::ng-deep .p-datatable thead th {
+  background-color: #06055c; 
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 2px solid #1565c0;
+}
+
+::ng-deep .p-datatable .p-datatable-tbody > tr > td {
+  padding: 12px;
+}
+
